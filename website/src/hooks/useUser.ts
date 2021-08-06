@@ -11,7 +11,7 @@ githubOAuthURL.searchParams.append("client_id", "8d782ff49f1e284d281c");
 process.env.NODE_ENV === "development" &&
 	githubOAuthURL.searchParams.append(
 		"redirect_uri",
-		"http://localhost:30*00/github-callback"
+		"http://localhost:3000/github-callback"
 	);
 githubOAuthURL.searchParams.append("scope", "read:user user:email");
 
